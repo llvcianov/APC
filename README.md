@@ -1,6 +1,6 @@
 # EyeBlink — Driver Drowsiness Detection
 
-Course project for **Architetture dei Processori e dei Calcolatori (APC)**, Master's Degree in Computer Engineering, University of Naples Federico II.
+Course project for Computer Architecture and Design, Master's Degree in Computer Engineering, University of Naples Federico II.
 
 A driver-drowsiness detection system: a PC-side Python script uses a webcam to detect eye closure in real time and sends an alert signal over a serial link to an STM32 microcontroller, which is meant to drive warning LEDs. Presentation: [`Presentazione SleepDetection.pptx`](Presentazione%20SleepDetection.pptx).
 
