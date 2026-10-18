@@ -12,8 +12,6 @@ A driver-drowsiness detection system: a PC-side Python script uses a webcam to d
 ## Known limitations
 
 This was built and tested as a course project, not hardened for real use:
-
-- The firmware's UART receive handler only reacts to a reset byte (`'N'`); it doesn't currently act on the `'A'`/`'O'` alert messages the Python script sends, so the LED alert logic (which does exist in the main loop) is never actually triggered as wired up. Left as-is here rather than guessing at the intended fix.
 - The webcam-based detection depends on a PC for both the camera and the (comparatively heavy) CNN inference, with a wired serial link to the board — a setup good enough to prove the concept, not to ship.
 
 ## Ideas for future work
